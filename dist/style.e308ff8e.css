@@ -21,9 +21,23 @@
 
  #div1 {
      position: fixed;
-     left: 50%;
-     transform: translateX(-50%);
-     top: 20px;
+     /* left: 80px;
+     transform: translateX(-50%); */
+     left: 0px;
+     right: 0px;
+     margin-left: auto;
+     margin-right: auto;
+     top: 40px;
+     animation: div1 4s linear infinite 3s;
+ }
+
+ @keyframes div1 {
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
  }
 
  #div1::before {
@@ -48,9 +62,11 @@
      }
      #div1 {
          position: relative;
-         margin-right: 0;
-         margin-left: 0;
+         left:0px;
+         right: 0px;
+         margin-right:auto;
+         margin-left:auto;
      }
  }
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+/*# sourceMappingURL=style.e308ff8e.css.map */
