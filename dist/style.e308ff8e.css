@@ -36,7 +36,7 @@
          transform: rotate(0deg);
      }
      to {
-         transform: rotate(360deg);
+         transform: rotate(-360deg);
      }
  }
 
@@ -69,4 +69,4 @@
      }
  }
 
-/*# sourceMappingURL=style.e308ff8e.css.map */
+/*# sourceMappingURL=/style.e308ff8e.css.map */
